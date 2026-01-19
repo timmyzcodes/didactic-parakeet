@@ -28,9 +28,9 @@ const roomsData = [
             { id: "full", label: "1 full bed", icon: "hotel" }
         ],
         images: [
-            "images/Rooms/superior-twin-1.jpg",
-            "images/Rooms/superior-twin-2.jpg",
-            "images/Rooms/superior-twin-3.jpg"
+            "images/rooms/superior-twin-1.jpg",
+            "images/rooms/superior-twin-2.jpg",
+            "images/rooms/superior-twin-3.jpg"
         ],
         amenities: [
             { name: "Attached bathroom", icon: "shower" },
@@ -183,9 +183,9 @@ const roomsData = [
         bedType: "Full bed",
         bedDescription: "Full bed",
         images: [
-            "images/Rooms/superior-double-1.jpg",
-            "images/Rooms/superior-double-2.jpg",
-            "images/Rooms/superior-double-3.jpg"
+            "images/rooms/superior-double-1.jpg",
+            "images/rooms/superior-double-2.jpg",
+            "images/rooms/superior-double-3.jpg"
         ],
         amenities: [
             { name: "Attached bathroom", icon: "shower" },
@@ -313,9 +313,9 @@ const roomsData = [
         bedType: "King bed",
         bedDescription: "King bed",
         images: [
-            "images/Rooms/superior-king-1.jpg",
-            "images/Rooms/superior-king-2.jpg",
-            "images/Rooms/superior-king-3.jpg"
+            "images/rooms/superior-king-1.jpg",
+            "images/rooms/superior-king-2.jpg",
+            "images/rooms/superior-king-3.jpg"
         ],
         amenities: [
             { name: "Attached bathroom", icon: "shower" },
@@ -465,9 +465,9 @@ const roomsData = [
         bedType: "Queen bed",
         bedDescription: "Queen bed",
         images: [
-            "images/Rooms/executive-king-1.jpg",
-            "images/Rooms/executive-king-2.jpg",
-            "images/Rooms/executive-king-3.jpg"
+            "images/rooms/executive-king-1.jpg",
+            "images/rooms/executive-king-2.jpg",
+            "images/rooms/executive-king-3.jpg"
         ],
         amenities: [
             { name: "Attached bathroom", icon: "shower" },
@@ -619,9 +619,9 @@ const roomsData = [
         bedType: "Bedroom: full bed, Linving room: Sofa bed",
         bedDescription: "Bedroom: full bed, Linving room: Sofa bed",
         images: [
-            "images/Rooms/suite-1.jpg",
-            "images/Rooms/suite-2.jpg",
-            "images/Rooms/suite-3.jpg"
+            "images/rooms/suite-1.jpg",
+            "images/rooms/suite-2.jpg",
+            "images/rooms/suite-3.jpg"
         ],
         amenities: [
             { name: "Attached bathroom", icon: "shower" },
