@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Selection - Single Room</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preload" as="image" href="images/Top.jpg" fetchpriority="high">
+</head>
+<body>
+    <!-- Full-width header background -->
+    <div class="full-width-header"></div>
+    
+    <div class="container">
+        <!-- Top Image -->
+        <div class="top-image-wrapper">
+            <img src="images/Top.jpg" alt="Top banner" class="top-image" loading="eager" fetchpriority="high">
+        </div>
+        
+        <!-- Header Section -->
+        <header class="header">
+            <div class="header-left">
+                <div class="dates-guests">
+                    <div class="dates-section">
+                        <i class="material-icons">calendar_today</i>
+                        <span class="dates-text">Jan 19 – Jan 21</span>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="guests-section">
+                        <i class="material-icons">person</i>
+                        <span class="guests-text">2 adults • 0 children • 1 room</span>
+                        <i class="material-icons chevron">keyboard_arrow_down</i>
+                    </div>
+                </div>
+                <div class="filters">
+                    <label class="filter-checkbox">
+                        <input type="checkbox" id="filterFreeCancellation">
+                        <span>Free cancellation</span>
+                    </label>
+                    <label class="filter-checkbox">
+                        <input type="checkbox" id="filterBreakfast">
+                        <span>Breakfast included</span>
+                    </label>
+                </div>
+            </div>
+            <div class="header-right">
+                <select class="sort-dropdown">
+                    <option>Sort by: price lowest to highest</option>
+                    <option>Sort by: price highest to lowest</option>
+                    <option>Sort by: room size</option>
+                </select>
+            </div>
+        </header>
+        
+        <!-- Room Cards Grid - Set 1 (2 adults, 2 children) -->
+        <div class="rooms-grid" id="roomsGrid1">
+            <!-- Room cards will be dynamically generated here -->
+        </div>
+    </div>
+
+    <!-- Room Details Overlay -->
+    <div class="overlay" id="roomDetailsOverlay">
+        <div class="overlay-content room-details-content">
+            <button class="close-btn" id="closeRoomDetails">&times;</button>
+            <div class="room-details-container">
+                <div class="room-details-gallery" id="roomDetailsGallery">
+                    <!-- Gallery will be populated dynamically -->
+                </div>
+                <div class="room-details-info" id="roomDetailsInfo">
+                    <!-- Room info will be populated dynamically -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rate Details Overlay -->
+    <div class="overlay" id="rateDetailsOverlay">
+        <div class="overlay-content rate-details-content">
+            <button class="close-btn" id="closeRateDetails">&times;</button>
+            <div class="rate-details-container" id="rateDetailsContainer">
+                <!-- Rate details will be populated dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Bed Type Selector Overlay -->
+    <div class="overlay" id="bedTypeOverlay">
+        <div class="overlay-content bed-type-overlay-content">
+            <button class="close-btn" id="closeBedType">&times;</button>
+            <div class="bed-type-container" id="bedTypeContainer">
+                <!-- Bed type options will be populated dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script_single.js"></script>
+</body>
+</html>
